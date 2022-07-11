@@ -4,7 +4,7 @@
 - 需有計算 BMI 結果
 - 需有顯示計算結果的 BMI 判定
 - 需顯示所有 BMI 範圍的一覽表
-
+- 需為 PWA 應用程式
 ## 範例
 ![](https://i.imgur.com/frz8pLi.png)
 

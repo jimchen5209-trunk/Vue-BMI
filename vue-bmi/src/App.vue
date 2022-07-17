@@ -1,7 +1,6 @@
 <template>
   <div class="flex justify-center items-center h-screen w-screen">
-    <div id="card"
-      class="rounded-[10px] bg-white flex flex-col w-screen sm:w-6/12 md:w-4/12 lg:w-3/12 xl:w-2/12 px-6 py-8">
+    <div id="card" class="rounded-[10px] bg-white flex flex-col w-screen max-w-sm px-6 py-8">
       <h1 class="text-center text-emerald-500 my-4">BMI 計算器</h1>
       <InputGroup title="身高" footer="公分" v-model="height" />
       <InputGroup title="體重" footer="公斤" v-model="weight" />

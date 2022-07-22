@@ -11,11 +11,11 @@
 import { reactive } from 'vue'
 
 const datas = reactive([
-    ['BMI ＜ 18.5', '過輕', 'text-cyan-400'],
-    ['18.5 ≦ BMI ＜ 24', '正常', 'text-green-400'],
-    ['24 ≦ BMI ＜ 27', '過重', 'text-amber-400'],
+    ['BMI ＜ 18.5', '過輕', 'text-cyan-500'],
+    ['18.5 ≦ BMI ＜ 24', '正常', 'text-green-500'],
+    ['24 ≦ BMI ＜ 27', '過重', 'text-amber-500'],
     ['27 ≦ BMI ＜ 30', '輕度肥胖', 'text-orange-400'],
     ['30 ≦ BMI ＜ 35', '中度肥胖', 'text-red-400'],
-    ['BMI ≧ 35', '重度肥胖', 'text-red-500']]
+    ['35 ≦ BMI', '重度肥胖', 'text-red-500']]
 );
 </script>

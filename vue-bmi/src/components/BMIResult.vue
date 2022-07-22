@@ -8,8 +8,8 @@
         </span>
     </div>
 
-    <div class="my-4 text-center rounded-[5px] py-4 text-xl" :class="weightText[1]">
-        您的體重為「{{weightText[0]}}」
+    <div class="my-4 text-center rounded-[5px] py-4 text-xl" :class="weightTextAndColor[1]">
+        您的體重為「{{weightTextAndColor[0]}}」
     </div>
 </template>
 
@@ -20,7 +20,7 @@ const props = defineProps({
     result: {type: Number, required: true}
 })
 
-const weightText = computed(() => {
+const weightTextAndColor = computed(() => {
     if (props.result < 18.5) {
         return ['過輕', 'bg-cyan-400']
     } else if (props.result < 24) {

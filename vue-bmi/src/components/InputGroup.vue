@@ -18,6 +18,6 @@ import { defineProps } from 'vue'
 const props = defineProps({
     title: { type: String, required: true },
     footer: { type: String, required: true },
-    modelValue: { type: Number}
+    modelValue: { type: Number }
 })
 </script>
